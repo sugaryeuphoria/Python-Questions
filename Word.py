@@ -16,7 +16,7 @@ def isVowel(char):
 user_input = input("Enter a character: ")
 
 if len(user_input) == 1:
-    if is_vowel(user_input):
+    if is_Vowel(user_input):
         print(f"{user_input} is a vowel.")
     else:
         print(f"{user_input} is not a vowel.")
